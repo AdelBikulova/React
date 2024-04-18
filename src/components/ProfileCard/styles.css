@@ -1,7 +1,7 @@
 .profile-card {
   width: 300px;
   padding: 20px 20px;
-  background: rgb(183, 230, 237);  
+  background: rgb(183, 230, 237);
   color: rgb(39, 17, 13);
   border: 10px;
   text-align: center;
@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
- }
+}
 
 .profile-avatar {
   width: 200px;
@@ -18,19 +18,16 @@
   border-radius: 50%;
 }
 
-.profile-name {  
+.profile-text {
   margin: 10px;
+  font-weight: bold;
+}
+
+.profile-name {
   font-size: 20px;
-  font-weight: bold;
 }
 
-.profile-job { 
-  margin: 10px;
+.profile-job,
+.profile-hobby {
   font-size: 15px;
-  font-weight: bold;
-}
-
-.profile-hobby { 
-  font-size: 15px;
-  font-weight: bold;
 }
