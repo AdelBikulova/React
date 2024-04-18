@@ -1,0 +1,19 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding: 30px;
+    padding-top: 100px;
+    gap: 20px;
+}
+
+.login-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 28px;
+    font-size: 26px;
+}
