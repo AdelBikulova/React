@@ -1,17 +1,12 @@
 import "./styles.css";
 
-function Button({ buttonName = "Get data", isPrimaryButton }) {
-  // 1 вариант
-  // const buttonClass = isPrimaryButton
-  //   ? "main-button primary-button"
-  //   : "main-button secondary-button";
-  console.log(isPrimaryButton);
-  // 2 вариант
-  const buttonClass = `main-button ${
-    isPrimaryButton ? "primary-button" : "secondary-button"
-  }`;
+function Button({ children, type = "button", onButtonClick }) {
 
-  return <button className={buttonClass}>{buttonName}</button>;
+  return (
+    <button className="button-component" type={type} onClick={onButtonClick}>
+      {children}
+    </button>
+  );
 }
 
 export default Button;
