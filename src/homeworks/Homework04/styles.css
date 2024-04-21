@@ -2,8 +2,8 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    padding: 20px;
-    background: rgb(219, 210, 230);
+    padding: 30px;
+    background: rgb(123, 92, 161);
 }
 
 .button-control {
@@ -11,6 +11,6 @@
 }
 
 .counter-wrapper {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
 }

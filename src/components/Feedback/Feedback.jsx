@@ -22,8 +22,10 @@ function Feedback() {
   return (
     <div className="counter-wrapper">
       <div className="button-control">
-        <Button onButtonClick={counterLikes}>Like</Button> {likes}
-        <Button onButtonClick={counterDislikes}>Dislike</Button> {dislikes}
+        <Button onButtonClick={counterLikes}>Like</Button> 
+        <div className="likes-count">{likes}</div>
+        <Button onButtonClick={counterDislikes}>Dislike</Button> 
+        <div className="dislikes-count">{dislikes}</div>
         <Button onButtonClick={resetResults}>Reset Results</Button>
       </div>
     </div>
